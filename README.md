@@ -6,4 +6,4 @@ Projeto de automação com Postman e Report com Newman
     npm install -g newman-reporter-htmlextra
     
 ## Execução com report html extra
-    newman run signup.json -e env-automacao.json -g env-global.json
+    newman run automa-api-academy-t10.json -e env-automacao.json -g env-global.json
