@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "84b3ee9f-4551-41ed-9591-06620ad43461",
-		"name": "QA Coders - Academy",
+		"_postman_id": "f0ff13ba-926f-44b0-bf25-595767ba28ad",
+		"name": "QA Coders - Academy Copy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "27586921",
-		"_collection_link": "https://martian-firefly-596159.postman.co/workspace/API-Academy~fcd8f42b-f9d2-43fc-8b48-ce5f83233755/collection/27586921-84b3ee9f-4551-41ed-9591-06620ad43461?action=share&source=collection_link&creator=27586921"
+		"_collection_link": "https://martian-firefly-596159.postman.co/workspace/API-Academy~fcd8f42b-f9d2-43fc-8b48-ce5f83233755/collection/27586921-f0ff13ba-926f-44b0-bf25-595767ba28ad?action=share&source=collection_link&creator=27586921"
 	},
 	"item": [
 		{
@@ -13284,59 +13284,6 @@
 					"name": "API Edit",
 					"item": [
 						{
-							"name": "Success",
-							"item": [
-								{
-									"name": "success",
-									"event": [
-										{
-											"listen": "test",
-											"script": {
-												"exec": [
-													"pm.test('Response status code is 200', function () {\r",
-													"    pm.response.to.have.status(200);\r",
-													"})\r",
-													"\r",
-													"pm.test(\"Check msg\", function () {\r",
-													"    pm.expect(JSON.parse(responseBody).msg).to.eql(\"Cadastro atualizado com sucesso!\");\r",
-													"});\r",
-													"\r",
-													"pm.test(\"Check costCenterCode exits\", function () {\r",
-													"    pm.expect(JSON.parse(responseBody).updatedCostCenter.costCenterCode).exist;\r",
-													"});"
-												],
-												"type": "text/javascript"
-											}
-										}
-									],
-									"request": {
-										"method": "PUT",
-										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n  \"costCenterName\": \"{{CostName}}teste\",\r\n  \"boardId\": \"{{IDboard}}\"\r\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": "{{url}}api/costCenter/{{IDcostCenter}}",
-											"host": [
-												"{{url}}api"
-											],
-											"path": [
-												"costCenter",
-												"{{IDcostCenter}}"
-											]
-										}
-									},
-									"response": []
-								}
-							]
-						},
-						{
 							"name": "Exception",
 							"item": [
 								{
@@ -13970,7 +13917,7 @@
 							"name": "Success",
 							"item": [
 								{
-									"name": "success",
+									"name": "success Copy",
 									"event": [
 										{
 											"listen": "prerequest",
@@ -14374,69 +14321,6 @@
 				{
 					"name": "API Edit",
 					"item": [
-						{
-							"name": "Success",
-							"item": [
-								{
-									"name": "success",
-									"event": [
-										{
-											"listen": "prerequest",
-											"script": {
-												"exec": [
-													"function nameDepartment(){\r",
-													"    var nameDepartment = [\"Inova\", \"Tech\", \"Criativa\", \"New\", \"Meta\", \"Alfa\", \"Beta\", \"Ltda\", \"Prime\", \"Solution\", \"Swift\", \"Power\", \"Tecno\", \"Digital\", \"Hight\", \"Easy\", \"Inteligente\", \"Vision\", \"Solution\", \"Inspire\", \"Aspitre\", \"Connect\", \"Mind\", \"Idea\", \"Lab\", \"Innova\", \"Imagine\", \"Quantun\", \"Genius\", \"Click\", \"Original\", \"Secret\", \"Versátil\", \"Geek\", \"Operação\", \"Logística\", \"Mecanica\", \"Advogacia\",\"Medicina\",\"Odontologia\",\"ADM\"];\r",
-													"    var randomItem = nameDepartment[Math.floor(Math.random() * nameDepartment.length)];\r",
-													"    return randomItem;\r",
-													"}\r",
-													"pm.environment.set(\"NameDepartment\", nameDepartment());"
-												],
-												"type": "text/javascript"
-											}
-										},
-										{
-											"listen": "test",
-											"script": {
-												"exec": [
-													"pm.test('Response status code is 200', function () {\r",
-													"    pm.response.to.have.status(200);\r",
-													"})\r",
-													"\r",
-													"pm.test(\"Check msg\", function () {\r",
-													"    pm.expect(JSON.parse(responseBody).msg).to.eql(\"Cadastro atualizado com sucesso!\");\r",
-													"});"
-												],
-												"type": "text/javascript"
-											}
-										}
-									],
-									"request": {
-										"method": "PUT",
-										"header": [],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n    \"departmentName\": \"{{NameDepartment}}teste\",\r\n    \"costCenterId\": \"{{IDcostCenter}}\"\r\n}",
-											"options": {
-												"raw": {
-													"language": "json"
-												}
-											}
-										},
-										"url": {
-											"raw": "{{url}}api/department/{{IDdepartment}}",
-											"host": [
-												"{{url}}api"
-											],
-											"path": [
-												"department",
-												"{{IDdepartment}}"
-											]
-										}
-									},
-									"response": []
-								}
-							]
-						},
 						{
 							"name": "Exception",
 							"item": [
