@@ -120,7 +120,7 @@
 												"exec": [
 													"// FUNÇÃO DE FIRST NAME + LAST NAME = FullName\r",
 													"function firstName(){\r",
-													"    var firstName = [\"Thaís\", \"Marcos\", \"Rose\", \"Miguel\",\"Helena\",\"Heitor\",\"Bernardo\",\"Arthur\",\"Maria\",\"Laura\",\"Lucas\",\"Davi\",\"Alice\",\"Gabriel\",\"Cecilia\",\"Pedro\",\"Theo\",\"Valentina\",\"Sofia\",\"Julia\",\"Manuela\",\"Luisa\",\"Lorenzo\",\"Maite\",\"Samuel\",\"Lara\",\"Isis\",\"Pedro\",\"Gustavo\",\"Nicolas\",\"Elisa\"];\r",
+													"    var firstName = [\"Thaís\", \"Marcos\", \"Rose\", \"Miguel\",\"Helena\",\"Heitor\",\"Bernardo\",\"Arthur\",\"Maria\",\"Laura\",\"Lucas\",\"Davi\",\"Alice\",\"Gabriel\",\"Cecilia\",\"Pedro\",\"Theo\",\"Valentina\",\"Sofia\",\"Julia\",\"Manuela\",\"Luisa\",\"Lorenzo\",\"Maite\",\"Samuel\",\"Lara\",\"Isis\",\"Pedro\",\"Gustavo\",\"Nicolas\",\"Elisa\", , \"Nexus\", \"Orbit\", \"Virtue\", \"Zenith\", \"Quantum\", \"Streamline\", \"Vortex\", \"Fusion\", \"Catalyst\", \"Zen\", \"Pulse\", \"Precision\", \"Vertex\", \"Endeavor\", \"Nova\", \"Odyssey\", \"Agile\", \"Infinity\", \"Evolve\", \"Synergy\", \"Solstice\", \"Dynamo\", \"Pinnacle\", \"Echo\", \"Elemental\", \"Spectrum\", \"Summit\", \"Horizon\", \"Genesis\", \"Eclipse\", \"Amplify\", \"catalyst\", \"Momentum\", \"Perspective\", \"Enigma\", \"Reboot\", \"Infinity\", \"Synapse\", \"Nexus\", \"Luminary\", \"Radiant\", \"Flux\", \"Momentum\", \"Legacy\", \"Aurora\", \"Phoenix\", \"Spectrum\", \"Zenith\", \"Velocity\", \"Unity\", \"Visionary\", \"Quantum\", \"Odyssey\", \"Luminate\", \"Fusion\", \"Dynamo\", \"Virtuoso\", \"Nova\", \"Quest\", \"Pulse\", \"Apex\", \"Envision\", \"Horizon\", \"Illuminate\", \"Catalyst\", \"Thrive\", \"Venture\", \"Synergy\", \"Summit\", \"Apex\", \"Genesis\", \"Pinnacle\", \"Fusion\", \"Evolve\", \"Momentum\", \"Zenith\", \"Vortex\", \"Nexus\", \"Quantum\", \"Echo\", \"Phoenix\", \"Spectrum\", \"Radiant\", \"Synergy\", \"Legacy\", \"Evolve\", \"Odyssey\", \"Virtue\", \"Nova\", \"Horizon\", \"Visionary\", \"Catalyst\", \"Genesis\", \"Pulse\", \"Vertex\"];\r",
 													"    var randomItem = firstName[Math.floor(Math.random() * firstName.length)];\r",
 													"    return randomItem;\r",
 													"}\r",
@@ -2183,7 +2183,7 @@
 												"exec": [
 													"// FUNÇÃO DE boardName\r",
 													"function firstBoard(){\r",
-													"    var firstBoard = [\"Inova\", \"Tech\", \"Criativa\", \"New\", \"Meta\", \"Alfa\", \"Beta\", \"Ltda\", \"Prime\", \"Solution\", \"Swift\", \"Power\", \"Tecno\", \"Digital\", \"Hight\", \"Easy\", \"Inteligente\", \"Vision\", \"Solution\", \"Inspire\", \"Aspitre\", \"Connect\", \"Mind\", \"Idea\", \"Lab\", \"Innova\", \"Imagine\", \"Quantun\", \"Genius\", \"Click\", \"Original\", \"Secret\", \"Versátil\", \"Geek\", \"Operação\", \"Logística\", \"Mecanica\", \"Advogacia\",\"Medicina\",\"Odontologia\",\"ADM\"];\r",
+													"    var firstBoard = [\"Inova\", \"Tech\", \"Criativa\", \"New\", \"Meta\", \"Alfa\", \"Beta\", \"Ltda\", \"Prime\", \"Solution\", \"Swift\", \"Power\", \"Tecno\", \"Digital\", \"Hight\", \"Easy\", \"Inteligente\", \"Vision\", \"Solution\", \"Inspire\", \"Aspitre\", \"Connect\", \"Mind\", \"Idea\", \"Lab\", \"Innova\", \"Imagine\", \"Quantun\", \"Genius\", \"Click\", \"Original\", \"Secret\", \"Versátil\", \"Geek\", \"Operação\", \"Logística\", \"Mecanica\", \"Advogacia\",\"Medicina\",\"Odontologia\",\"ADM\", \"Nexus\", \"Insight\", \"Momentum\", \"Excel\", \"Apex\", \"Nexus\", \"Orbit\", \"Virtue\", \"Zenith\", \"Quantum\", \"Streamline\", \"Vortex\", \"Fusion\", \"Catalyst\", \"Zen\", \"Pulse\", \"Precision\", \"Vertex\", \"Endeavor\", \"Nova\", \"Odyssey\", \"Agile\", \"Infinity\", \"Evolve\", \"Synergy\", \"Solstice\", \"Dynamo\", \"Pinnacle\", \"Echo\", \"Elemental\", \"Spectrum\", \"Summit\", \"Horizon\", \"Genesis\", \"Eclipse\", \"Amplify\", \"catalyst\", \"Momentum\", \"Perspective\", \"Enigma\", \"Reboot\", \"Infinity\", \"Synapse\", \"Nexus\", \"Luminary\", \"Radiant\", \"Flux\", \"Momentum\", \"Legacy\", \"Aurora\", \"Phoenix\", \"Spectrum\", \"Zenith\", \"Velocity\", \"Unity\", \"Visionary\", \"Quantum\", \"Odyssey\", \"Luminate\", \"Fusion\", \"Dynamo\", \"Virtuoso\", \"Nova\", \"Quest\", \"Pulse\", \"Apex\", \"Envision\", \"Horizon\", \"Illuminate\", \"Catalyst\", \"Thrive\", \"Venture\", \"Synergy\", \"Summit\", \"Apex\", \"Genesis\", \"Pinnacle\", \"Fusion\", \"Evolve\", \"Momentum\", \"Zenith\", \"Vortex\", \"Nexus\", \"Quantum\", \"Echo\", \"Phoenix\", \"Spectrum\", \"Radiant\", \"Synergy\", \"Legacy\", \"Evolve\", \"Odyssey\", \"Virtue\", \"Nova\", \"Horizon\", \"Visionary\", \"Catalyst\", \"Genesis\", \"Pulse\", \"Vertex\"];\r",
 													"    var randomItem = firstBoard[Math.floor(Math.random() * firstBoard.length)];\r",
 													"    return randomItem;\r",
 													"}\r",
@@ -2228,10 +2228,6 @@
 													"});\r",
 													"\r",
 													"\r",
-													"\r",
-													"pm.test(\"Check boardCode contain only 3 digits\", function() {\r",
-													"    pm.expect(JSON.parse(responseBody).newBoard.boardCode.length == 3).to.be.true;\r",
-													"});\r",
 													""
 												],
 												"type": "text/javascript"
@@ -3061,7 +3057,7 @@
 												"exec": [
 													" // função: \"corporateName\"\r",
 													"function firstCorporate(){\r",
-													"    var firstCorporate = [\"Inova\", \"Tech\", \"Criativa\", \"New\", \"Meta\", \"Alfa\", \"Beta\", \"Ltda\", \"Prime\", \"Solution\", \"Swift\", \"Power\", \"Tecno\", \"Digital\", \"Hight\", \"Easy\", \"Inteligente\", \"Vision\", \"Solution\", \"Inspire\", \"Aspitre\", \"Connect\", \"Mind\", \"Idea\", \"Lab\", \"Innova\", \"Imagine\", \"Quantun\", \"Genius\", \"Click\", \"Original\", \"Secret\", \"Versátil\", \"Geek\", \"Operação\", \"Logística\", \"Mecanica\", \"Advogacia\",\"Medicina\",\"Odontologia\",\"ADM\"];\r",
+													"    var firstCorporate = [\"Inova\", \"Tech\", \"Criativa\", \"New\", \"Meta\", \"Alfa\", \"Beta\", \"Ltda\", \"Prime\", \"Solution\", \"Swift\", \"Power\", \"Tecno\", \"Digital\", \"Hight\", \"Easy\", \"Inteligente\", \"Vision\", \"Solution\", \"Inspire\", \"Aspitre\", \"Connect\", \"Mind\", \"Idea\", \"Lab\", \"Innova\", \"Imagine\", \"Quantun\", \"Genius\", \"Click\", \"Original\", \"Secret\", \"Versátil\", \"Geek\", \"Operação\", \"Logística\", \"Mecanica\", \"Advogacia\",\"Medicina\",\"Odontologia\",\"ADM\", , \"Nexus\", \"Orbit\", \"Virtue\", \"Zenith\", \"Quantum\", \"Streamline\", \"Vortex\", \"Fusion\", \"Catalyst\", \"Zen\", \"Pulse\", \"Precision\", \"Vertex\", \"Endeavor\", \"Nova\", \"Odyssey\", \"Agile\", \"Infinity\", \"Evolve\", \"Synergy\", \"Solstice\", \"Dynamo\", \"Pinnacle\", \"Echo\", \"Elemental\", \"Spectrum\", \"Summit\", \"Horizon\", \"Genesis\", \"Eclipse\", \"Amplify\", \"catalyst\", \"Momentum\", \"Perspective\", \"Enigma\", \"Reboot\", \"Infinity\", \"Synapse\", \"Nexus\", \"Luminary\", \"Radiant\", \"Flux\", \"Momentum\", \"Legacy\", \"Aurora\", \"Phoenix\", \"Spectrum\", \"Zenith\", \"Velocity\", \"Unity\", \"Visionary\", \"Quantum\", \"Odyssey\", \"Luminate\", \"Fusion\", \"Dynamo\", \"Virtuoso\", \"Nova\", \"Quest\", \"Pulse\", \"Apex\", \"Envision\", \"Horizon\", \"Illuminate\", \"Catalyst\", \"Thrive\", \"Venture\", \"Synergy\", \"Summit\", \"Apex\", \"Genesis\", \"Pinnacle\", \"Fusion\", \"Evolve\", \"Momentum\", \"Zenith\", \"Vortex\", \"Nexus\", \"Quantum\", \"Echo\", \"Phoenix\", \"Spectrum\", \"Radiant\", \"Synergy\", \"Legacy\", \"Evolve\", \"Odyssey\", \"Virtue\", \"Nova\", \"Horizon\", \"Visionary\", \"Catalyst\", \"Genesis\", \"Pulse\", \"Vertex\"];\r",
 													"    var randomItem = firstCorporate[Math.floor(Math.random() * firstCorporate.length)];\r",
 													"    return randomItem;\r",
 													"}\r",
@@ -10526,7 +10522,7 @@
 												"exec": [
 													" // função: \"corporateName\"\r",
 													"function firstCorporate(){\r",
-													"    var firstCorporate = [\"Inova\", \"Tech\", \"Criativa\", \"New\", \"Meta\", \"Alfa\", \"Beta\", \"Ltda\", \"Prime\", \"Solution\", \"Swift\", \"Power\", \"Tecno\", \"Digital\", \"Hight\", \"Easy\", \"Inteligente\", \"Vision\", \"Solution\", \"Inspire\", \"Aspitre\", \"Connect\", \"Mind\", \"Idea\", \"Lab\", \"Innova\", \"Imagine\", \"Quantun\", \"Genius\", \"Click\", \"Original\", \"Secret\", \"Versátil\", \"Geek\", \"Operação\", \"Logística\", \"Mecanica\", \"Advogacia\",\"Medicina\",\"Odontologia\",\"ADM\"];\r",
+													"    var firstCorporate = [\"Inova\", \"Tech\", \"Criativa\", \"New\", \"Meta\", \"Alfa\", \"Beta\", \"Ltda\", \"Prime\", \"Solution\", \"Swift\", \"Power\", \"Tecno\", \"Digital\", \"Hight\", \"Easy\", \"Inteligente\", \"Vision\", \"Solution\", \"Inspire\", \"Aspitre\", \"Connect\", \"Mind\", \"Idea\", \"Lab\", \"Innova\", \"Imagine\", \"Quantun\", \"Genius\", \"Click\", \"Original\", \"Secret\", \"Versátil\", \"Geek\", \"Operação\", \"Logística\", \"Mecanica\", \"Advogacia\",\"Medicina\",\"Odontologia\",\"ADM\", , \"Nexus\", \"Orbit\", \"Virtue\", \"Zenith\", \"Quantum\", \"Streamline\", \"Vortex\", \"Fusion\", \"Catalyst\", \"Zen\", \"Pulse\", \"Precision\", \"Vertex\", \"Endeavor\", \"Nova\", \"Odyssey\", \"Agile\", \"Infinity\", \"Evolve\", \"Synergy\", \"Solstice\", \"Dynamo\", \"Pinnacle\", \"Echo\", \"Elemental\", \"Spectrum\", \"Summit\", \"Horizon\", \"Genesis\", \"Eclipse\", \"Amplify\", \"catalyst\", \"Momentum\", \"Perspective\", \"Enigma\", \"Reboot\", \"Infinity\", \"Synapse\", \"Nexus\", \"Luminary\", \"Radiant\", \"Flux\", \"Momentum\", \"Legacy\", \"Aurora\", \"Phoenix\", \"Spectrum\", \"Zenith\", \"Velocity\", \"Unity\", \"Visionary\", \"Quantum\", \"Odyssey\", \"Luminate\", \"Fusion\", \"Dynamo\", \"Virtuoso\", \"Nova\", \"Quest\", \"Pulse\", \"Apex\", \"Envision\", \"Horizon\", \"Illuminate\", \"Catalyst\", \"Thrive\", \"Venture\", \"Synergy\", \"Summit\", \"Apex\", \"Genesis\", \"Pinnacle\", \"Fusion\", \"Evolve\", \"Momentum\", \"Zenith\", \"Vortex\", \"Nexus\", \"Quantum\", \"Echo\", \"Phoenix\", \"Spectrum\", \"Radiant\", \"Synergy\", \"Legacy\", \"Evolve\", \"Odyssey\", \"Virtue\", \"Nova\", \"Horizon\", \"Visionary\", \"Catalyst\", \"Genesis\", \"Pulse\", \"Vertex\"];\r",
 													"    var randomItem = firstCorporate[Math.floor(Math.random() * firstCorporate.length)];\r",
 													"    return randomItem;\r",
 													"}\r",
@@ -12924,7 +12920,7 @@
 											"script": {
 												"exec": [
 													"function costName(){\r",
-													"    var costName = [\"Inova\", \"Tech\", \"Criativa\", \"New\", \"Meta\", \"Alfa\", \"Beta\", \"Ltda\", \"Prime\", \"Solution\", \"Swift\", \"Power\", \"Tecno\", \"Digital\", \"Hight\", \"Easy\", \"Inteligente\", \"Vision\", \"Solution\", \"Inspire\", \"Aspitre\", \"Connect\", \"Mind\", \"Idea\", \"Lab\", \"Innova\", \"Imagine\", \"Quantun\", \"Genius\", \"Click\", \"Original\", \"Secret\", \"Versátil\", \"Geek\", \"Operação\", \"Logística\", \"Mecanica\", \"Advogacia\",\"Medicina\",\"Odontologia\",\"ADM\"];\r",
+													"    var costName = [\"Inova\", \"Tech\", \"Criativa\", \"New\", \"Meta\", \"Alfa\", \"Beta\", \"Ltda\", \"Prime\", \"Solution\", \"Swift\", \"Power\", \"Tecno\", \"Digital\", \"Hight\", \"Easy\", \"Inteligente\", \"Vision\", \"Solution\", \"Inspire\", \"Aspitre\", \"Connect\", \"Mind\", \"Idea\", \"Lab\", \"Innova\", \"Imagine\", \"Quantun\", \"Genius\", \"Click\", \"Original\", \"Secret\", \"Versátil\", \"Geek\", \"Operação\", \"Logística\", \"Mecanica\", \"Advogacia\",\"Medicina\",\"Odontologia\",\"ADM\", , \"Nexus\", \"Orbit\", \"Virtue\", \"Zenith\", \"Quantum\", \"Streamline\", \"Vortex\", \"Fusion\", \"Catalyst\", \"Zen\", \"Pulse\", \"Precision\", \"Vertex\", \"Endeavor\", \"Nova\", \"Odyssey\", \"Agile\", \"Infinity\", \"Evolve\", \"Synergy\", \"Solstice\", \"Dynamo\", \"Pinnacle\", \"Echo\", \"Elemental\", \"Spectrum\", \"Summit\", \"Horizon\", \"Genesis\", \"Eclipse\", \"Amplify\", \"catalyst\", \"Momentum\", \"Perspective\", \"Enigma\", \"Reboot\", \"Infinity\", \"Synapse\", \"Nexus\", \"Luminary\", \"Radiant\", \"Flux\", \"Momentum\", \"Legacy\", \"Aurora\", \"Phoenix\", \"Spectrum\", \"Zenith\", \"Velocity\", \"Unity\", \"Visionary\", \"Quantum\", \"Odyssey\", \"Luminate\", \"Fusion\", \"Dynamo\", \"Virtuoso\", \"Nova\", \"Quest\", \"Pulse\", \"Apex\", \"Envision\", \"Horizon\", \"Illuminate\", \"Catalyst\", \"Thrive\", \"Venture\", \"Synergy\", \"Summit\", \"Apex\", \"Genesis\", \"Pinnacle\", \"Fusion\", \"Evolve\", \"Momentum\", \"Zenith\", \"Vortex\", \"Nexus\", \"Quantum\", \"Echo\", \"Phoenix\", \"Spectrum\", \"Radiant\", \"Synergy\", \"Legacy\", \"Evolve\", \"Odyssey\", \"Virtue\", \"Nova\", \"Horizon\", \"Visionary\", \"Catalyst\", \"Genesis\", \"Pulse\", \"Vertex\"];\r",
 													"    var randomItem = costName[Math.floor(Math.random() * costName.length)];\r",
 													"    return randomItem;\r",
 													"}\r",
@@ -13318,7 +13314,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n  \"costCenterName\": \"{{CostName}}&teste\",\r\n  \"boardId\": \"{{IDboard}}\"\r\n}",
+											"raw": "{\r\n  \"costCenterName\": \"{{CostName}}teste\",\r\n  \"boardId\": \"{{IDboard}}\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -13981,7 +13977,7 @@
 											"script": {
 												"exec": [
 													"function nameDepartment(){\r",
-													"    var nameDepartment = [\"Inova\", \"Tech\", \"Criativa\", \"New\", \"Meta\", \"Alfa\", \"Beta\", \"Ltda\", \"Prime\", \"Solution\", \"Swift\", \"Power\", \"Tecno\", \"Digital\", \"Hight\", \"Easy\", \"Inteligente\", \"Vision\", \"Solution\", \"Inspire\", \"Aspitre\", \"Connect\", \"Mind\", \"Idea\", \"Lab\", \"Innova\", \"Imagine\", \"Quantun\", \"Genius\", \"Click\", \"Original\", \"Secret\", \"Versátil\", \"Geek\", \"Operação\", \"Logística\", \"Mecanica\", \"Advogacia\",\"Medicina\",\"Odontologia\",\"ADM\"];\r",
+													"    var nameDepartment = [\"Inova\", \"Tech\", \"Criativa\", \"New\", \"Meta\", \"Alfa\", \"Beta\", \"Ltda\", \"Prime\", \"Solution\", \"Swift\", \"Power\", \"Tecno\", \"Digital\", \"Hight\", \"Easy\", \"Inteligente\", \"Vision\", \"Solution\", \"Inspire\", \"Aspitre\", \"Connect\", \"Mind\", \"Idea\", \"Lab\", \"Innova\", \"Imagine\", \"Quantun\", \"Genius\", \"Click\", \"Original\", \"Secret\", \"Versátil\", \"Geek\", \"Operação\", \"Logística\", \"Mecanica\", \"Advogacia\",\"Medicina\",\"Odontologia\",\"ADM\", , \"Nexus\", \"Orbit\", \"Virtue\", \"Zenith\", \"Quantum\", \"Streamline\", \"Vortex\", \"Fusion\", \"Catalyst\", \"Zen\", \"Pulse\", \"Precision\", \"Vertex\", \"Endeavor\", \"Nova\", \"Odyssey\", \"Agile\", \"Infinity\", \"Evolve\", \"Synergy\", \"Solstice\", \"Dynamo\", \"Pinnacle\", \"Echo\", \"Elemental\", \"Spectrum\", \"Summit\", \"Horizon\", \"Genesis\", \"Eclipse\", \"Amplify\", \"catalyst\", \"Momentum\", \"Perspective\", \"Enigma\", \"Reboot\", \"Infinity\", \"Synapse\", \"Nexus\", \"Luminary\", \"Radiant\", \"Flux\", \"Momentum\", \"Legacy\", \"Aurora\", \"Phoenix\", \"Spectrum\", \"Zenith\", \"Velocity\", \"Unity\", \"Visionary\", \"Quantum\", \"Odyssey\", \"Luminate\", \"Fusion\", \"Dynamo\", \"Virtuoso\", \"Nova\", \"Quest\", \"Pulse\", \"Apex\", \"Envision\", \"Horizon\", \"Illuminate\", \"Catalyst\", \"Thrive\", \"Venture\", \"Synergy\", \"Summit\", \"Apex\", \"Genesis\", \"Pinnacle\", \"Fusion\", \"Evolve\", \"Momentum\", \"Zenith\", \"Vortex\", \"Nexus\", \"Quantum\", \"Echo\", \"Phoenix\", \"Spectrum\", \"Radiant\", \"Synergy\", \"Legacy\", \"Evolve\", \"Odyssey\", \"Virtue\", \"Nova\", \"Horizon\", \"Visionary\", \"Catalyst\", \"Genesis\", \"Pulse\", \"Vertex\"];\r",
 													"    var randomItem = nameDepartment[Math.floor(Math.random() * nameDepartment.length)];\r",
 													"    return randomItem;\r",
 													"}\r",
@@ -14419,7 +14415,7 @@
 										"header": [],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n    \"departmentName\": \"{{NameDepartment}}\",\r\n    \"costCenterId\": \"{{IDcostCenter}}\"\r\n}",
+											"raw": "{\r\n    \"departmentName\": \"{{NameDepartment}}teste\",\r\n    \"costCenterId\": \"{{IDcostCenter}}\"\r\n}",
 											"options": {
 												"raw": {
 													"language": "json"
